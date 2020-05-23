@@ -1,0 +1,29 @@
+{
+  "name": "codeforces",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ith": "cat input/ith.txt | node ith-place-finishers.js",
+    "ith-fail": "cat input/ith-failing-case.txt | node ith-place-finishers.js",
+    "a-team": "cat input/a-team.txt | node a-team-231-a.js",
+    "a-team-2": "cat input/a-team-2.txt | node a-team-231-a.js",
+    "dfs": "cat input/dfs.txt | node dfs.js",
+    "start-flow-watch": "yarn flow-watch",
+    "fw": "yarn flow-watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "coffeescript": "^2.5.1",
+    "prettier": "github:helixbass/prettier#b8818ebd",
+    "prettier-plugin-coffeescript": "^0.1.4",
+    "readline": "^1.3.0"
+  },
+  "devDependencies": {
+    "flow-bin": "^0.125.1",
+    "flow-watch": "^2.0.0"
+  }
+}
